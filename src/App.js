@@ -41,7 +41,7 @@ export default function App() {
           render={({ match: { url } }) => (
             <Switch>
               {/* {console.log(props)} */}
-              {console.log(url)}
+              {/* {console.log(url)} */}
               {/* <Route exact path="/page1"> */}
               <Route exact path="url">
                 <Page1 />
